@@ -28,21 +28,9 @@ img {
   display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p, {
-  margin: 0;
-  padding: 0;
-}
-
 ul {
   list-style: none;
 }
-
 
 /* Логотип */
 
@@ -176,15 +164,6 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-/* margin-left: auto;
-  margin-right: auto;
-  height: 600px;
-  max-width: 1600px;
-  background-image: url(../images/hero-photo.jpg);
-  background-size: contain;
-  background-repeat: no-repeat; */
 
 .hero-title {
   font-weight: 900;
