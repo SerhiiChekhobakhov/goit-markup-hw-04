@@ -28,6 +28,22 @@ img {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
 /* Логотип */
 
 .logo {
@@ -59,7 +75,6 @@ img {
 }
 
 .site-nav {
-  list-style: none;
   margin: 0;
   display: flex;
   gap: 50px;
@@ -91,7 +106,6 @@ img {
 /* Контакти в навігації */
 
 .contacts-nav {
-  list-style: none;
   margin: 0;
   padding: 0;
 
@@ -152,7 +166,25 @@ img {
   background-color: var(--background-color-hero);
   text-align: center;
   padding: 200px 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  max-width: 1600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+
+/* margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  max-width: 1600px;
+  background-image: url(../images/hero-photo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; */
 
 .hero-title {
   font-weight: 900;
@@ -164,6 +196,7 @@ img {
   color: var(--hero-title-color);
   margin-bottom: 30px;
   width: 696px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -198,7 +231,6 @@ img {
 /* Особливості */
 
 .peculiarities-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 
@@ -243,7 +275,6 @@ img {
 }
 
 .activities-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 
@@ -258,7 +289,6 @@ img {
 }
 
 .team-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 
@@ -299,7 +329,6 @@ img {
 /* Портфоліо */
 
 .filters-list {
-  list-style: none;
   margin: 0 0 50px;
   padding: 0;
 
@@ -309,7 +338,6 @@ img {
 }
 
 .projects-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 
@@ -406,7 +434,6 @@ img {
 /* Адреса та контакти */
 
 .footer-list {
-  list-style: none;
   margin-top: 20px;
   margin-bottom: 0;
   padding: 0;
