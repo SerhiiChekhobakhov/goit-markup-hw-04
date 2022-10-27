@@ -226,6 +226,33 @@ ul {
   display: inline;
 }
 
+.peculiarities-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--section-block-grey);
+  margin-bottom: 30px;
+}
+
+.peculiarities-item:nth-child(1)::before {
+  background-image: url(../images/antenna.svg)
+}
+
+.peculiarities-item:nth-child(2)::before {
+  background-image: url(../images/clock.svg);
+}
+
+.peculiarities-item:nth-child(3)::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.peculiarities-item:nth-child(4)::before {
+  background-image: url(../images/astronaut.svg);
+}
+
 .peculiarities-title {
   font-size: 14px;
   line-height: 1.14;
