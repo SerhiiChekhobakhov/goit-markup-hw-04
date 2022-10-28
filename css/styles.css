@@ -15,6 +15,7 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --section-block-grey: #f5f4fa;
   --products-card-bcg: #eeeeee;
+  --circle-footer-color: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -30,6 +31,10 @@ img {
 
 ul {
   list-style: none;
+}
+
+svg {
+  display: block;
 }
 
 /* Логотип */
@@ -123,6 +128,11 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 344px;
+}
+
+.icon-header {
+  fill: #757575;
+  max-width: 16px;
 }
 
 /* Секції */
@@ -329,12 +339,42 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.join-employee {
   margin: 0;
   padding: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .container-teamcard {
   padding: 30px 0;
+}
+
+/* Клієнти */
+
+.clients-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 30px;
+}
+
+.client-item {
+  border: #AFB1B8 solid 1px;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.client-icon {
+  fill: #AFB1B8;
 }
 
 /* Портфоліо */
@@ -427,6 +467,11 @@ ul {
   padding: 60px 0;
 }
 
+.footer > .container {
+  display: flex;
+  gap: 70px;
+}
+
 /* Логотип у футері */
 
 .footer-logo {
@@ -483,6 +528,36 @@ ul {
   color: var(--hover-link-color);
 }
 
+.joinus-title {
+  margin: 0 0 20px;
+  width: 116px;
+  Font size: 14px;
+  color: var(--background-color);
+  Line height: 1.14;
+  Letter-spacing: 0.03em;
+  Vertical-align: Top;
+}
+
+.joinus-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 10px;
+}
+
+.joinus-item {
+  margin: 0;
+  padding: 0;
+
+  display: inline;  
+}
+
+.joinus-link:hover,
+.joinus-link:focus {
+  fill: var(--hover-link-color);
+}
+
 /* Приховування елементів */
 
 .visually-hidden {
@@ -497,3 +572,4 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
+
