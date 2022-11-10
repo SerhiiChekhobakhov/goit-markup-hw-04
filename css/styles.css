@@ -118,6 +118,7 @@ svg {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--hover-link-color);
+  fill: var(--hover-link-color)
 }
 
 .container.header {
@@ -131,9 +132,16 @@ svg {
 }
 
 .icon-header {
-  fill: #757575;
+  fill: currentColor;
   max-width: 16px;
+  max-height: 12px;
+  margin: 0;
 }
+
+/* .icon-header:hover,
+.icon-header:focus {
+  fill: var(--hover-link-color);
+} */
 
 /* Секції */
 
