@@ -113,6 +113,9 @@ svg {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .contacts-link:hover,
@@ -129,21 +132,13 @@ svg {
   display: flex;
   justify-content: space-between;
   gap: 344px;
+  
 }
 
 .icon-header {
   fill: currentColor;
-  max-width: 16px;
-  max-height: 12px;
-  margin: 0;
+  margin: 0 10px 0 0;
 }
-
-/* .icon-header:hover,
-.icon-header:focus {
-  fill: var(--hover-link-color);
-} */
-
-/* Секції */
 
 .section {
   padding: 94px 0;
