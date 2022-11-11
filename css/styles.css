@@ -16,6 +16,7 @@
   --section-block-grey: #f5f4fa;
   --products-card-bcg: #eeeeee;
   --circle-footer-color: rgba(255, 255, 255, 0.1);
+  --icon-color: #AFB1B8;
 }
 
 body {
@@ -559,6 +560,15 @@ svg {
 .joinus-link:hover,
 .joinus-link:focus {
   fill: var(--hover-link-color);
+}
+
+.joinus-icon {
+  fill: var(--icon-color);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: inherit;
+  display: inline-flex;
 }
 
 /* Приховування елементів */
