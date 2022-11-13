@@ -347,18 +347,54 @@ svg {
   padding: 0;
 }
 
-.join-employee {
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
 .container-teamcard {
   padding: 30px 0;
 }
+
+.join-employee {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+}
+
+.joinus-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; 
+}
+
+.joinus-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.joinus-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--team-card-color);
+  fill: var(--icon-color);
+}
+
+.joinus-link:hover,
+.joinus-link:focus {
+  color: var(--team-card-color);
+  background-color: var(--hover-link-color);
+  border: none;
+  fill: var(--team-card-color)
+}
+
+.joinus-icon {
+  width: 22px; 
+  height: 22px;
+}
+
 
 /* Клієнти */
 
@@ -370,15 +406,21 @@ svg {
   gap: 30px;
 }
 
-.client-item {
+.client-link {
   border: #AFB1B8 solid 1px;
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color);
 }
 
-.client-icon {
-  fill: #AFB1B8;
+.client-link:hover,
+.client-link:focus {
+  fill: var(--hover-link-color);
+  border: var(--hover-link-color) solid 1px;
 }
 
 /* Портфоліо */
@@ -540,35 +582,6 @@ svg {
   Line height: 1.14;
   Letter-spacing: 0.03em;
   Vertical-align: Top;
-}
-
-.joinus-list {
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  gap: 10px;
-}
-
-.joinus-item {
-  margin: 0;
-  padding: 0;
-
-  display: inline;  
-}
-
-.joinus-link:hover,
-.joinus-link:focus {
-  fill: var(--hover-link-color);
-}
-
-.joinus-icon {
-  fill: var(--icon-color);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  position: inherit;
-  display: inline-flex;
 }
 
 /* Приховування елементів */
