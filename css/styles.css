@@ -17,6 +17,7 @@
   --products-card-bcg: #eeeeee;
   --circle-footer-color: rgba(255, 255, 255, 0.1);
   --icon-color: #AFB1B8;
+  --icon-background-footer: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -594,6 +595,32 @@ svg {
   Letter-spacing: 0.03em;
   Vertical-align: Top;
 }
+
+
+.joinus-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--icon-background-footer);
+  fill: var(--button-text-color);
+}
+
+.joinus-link-footer:hover,
+.joinus-link-footer:focus {
+  background-color: var(--hover-link-color);
+  border: none;
+  fill: var(--team-card-color);
+}
+
+
+/* .joinus > .joinus-link {
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* background-color: var(--background-color-footer);
+  color: var(--background-color-footer);
+} */ */
 
 /* Приховування елементів */
 
