@@ -16,7 +16,7 @@
   --section-block-grey: #f5f4fa;
   --products-card-bcg: #eeeeee;
   --circle-footer-color: rgba(255, 255, 255, 0.1);
-  --icon-color: #AFB1B8;
+  --icon-color: #afb1b8;
   --icon-background-footer: rgba(255, 255, 255, 0.1);
 }
 
@@ -123,7 +123,7 @@ svg {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--hover-link-color);
-  fill: var(--hover-link-color)
+  fill: var(--hover-link-color);
 }
 
 .container.header {
@@ -134,7 +134,6 @@ svg {
   display: flex;
   justify-content: space-between;
   gap: 344px;
-  
 }
 
 .icon-header {
@@ -183,8 +182,7 @@ svg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0px, 4px
-  rgba(0, 0, 0, 0.25);
+  box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title {
@@ -255,7 +253,7 @@ svg {
 }
 
 .peculiarities-item:nth-child(1)::before {
-  background-image: url(../images/antenna.svg)
+  background-image: url(../images/antenna.svg);
 }
 
 .peculiarities-item:nth-child(2)::before {
@@ -326,7 +324,8 @@ svg {
 
 .team-card {
   background: var(--team-card-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -375,7 +374,7 @@ svg {
 .joinus-item {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .joinus-link {
@@ -394,14 +393,13 @@ svg {
   color: var(--team-card-color);
   background-color: var(--hover-link-color);
   border: none;
-  fill: var(--team-card-color)
+  fill: var(--team-card-color);
 }
 
 .joinus-icon {
-  width: 20px; 
+  width: 20px;
   height: 20px;
 }
-
 
 /* Клієнти */
 
@@ -414,7 +412,7 @@ svg {
 }
 
 .client-link {
-  border: #AFB1B8 solid 1px;
+  border: #afb1b8 solid 1px;
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -594,10 +592,9 @@ svg {
   font-size: 14px;
   line-height: 1.14;
   color: var(--background-color);
-  Letter-spacing: 0.03em;
-  Vertical-align: Top;
+  letter-spacing: 0.03em;
+  vertical-align: Top;
 }
-
 
 .joinus-link-footer {
   display: flex;
@@ -617,13 +614,6 @@ svg {
   fill: var(--team-card-color);
 }
 
-
-/* .joinus > .joinus-link {
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* background-color: var(--background-color-footer);
-  color: var(--background-color-footer);
-} */ */
-
 /* Приховування елементів */
 
 .visually-hidden {
@@ -638,4 +628,3 @@ svg {
   clip-path: inset(50%);
   margin: -1px;
 }
-
