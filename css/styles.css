@@ -182,7 +182,7 @@ svg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero-title {
@@ -250,6 +250,7 @@ svg {
   background-position: center;
   background-color: var(--section-block-grey);
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .peculiarities-item:nth-child(1)::before {
@@ -502,13 +503,22 @@ svg {
 
 .product-link {
   text-decoration: none;
+  display: block;
+}
+
+.product-link:hover,
+.product-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .products {
   margin: 0;
   padding: 20px 24px;
   border-top: none;
-  border: 1px solid #eeeeee;
+  
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 /* Футер */
